@@ -7,7 +7,7 @@ function create(user, callback) {
        password: configuration.MYSQL_PASSWORD,
        database: 'nmauth0'
      });
-    connection.connect();
+    connection.connect(); 
   
     var query = "INSERT INTO users SET ?";
   
